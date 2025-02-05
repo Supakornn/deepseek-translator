@@ -1,0 +1,26 @@
+{
+  "name": "deepseek-translator",
+  "version": "1.0.0",
+  "description": "Chrome Extension สำหรับแปลภาษา",
+  "main": "src/background.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "watch": "vite build --watch",
+    "type-check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "dependencies": {
+    "svelte": "^4.0.0"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.0.2",
+    "@tsconfig/svelte": "^5.0.4",
+    "@types/chrome": "^0.0.301",
+    "@types/node": "^22.13.1",
+    "svelte-check": "^3.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.1.4",
+    "vite-plugin-copy": "^0.1.6"
+  }
+}
